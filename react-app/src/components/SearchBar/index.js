@@ -14,7 +14,7 @@ function SearchBar() {
             <h1 className="searchBar-title">Find out what lies hidden inside!</h1>
             <div className = "searchBar-content" > Enter a chemical or compound in the search box below to find out more! </div>
             <form>
-               <input placeholder="Ex. Bisphenol-A">
+               <input className='search-input' placeholder="Ex. Bisphenol-A">
                </input>
                <button>Look it up!</button>
             </form>

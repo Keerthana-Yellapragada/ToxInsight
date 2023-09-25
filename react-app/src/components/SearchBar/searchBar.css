@@ -1,4 +1,20 @@
-.searchBar-container{
-    color: red;
+.searchBar-container {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:red;
     background-color: black;
+}
+
+.search-input {
+    border-style: none;
+    margin: 15px;
+    padding: 8px;
+    height: 40px;
+    font-size:25px;
+    border-radius: 10px;
+
 }
