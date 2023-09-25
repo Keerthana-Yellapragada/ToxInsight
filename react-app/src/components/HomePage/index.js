@@ -13,8 +13,10 @@ function HomePage() {
       <>
          <div className="homepage-container">
             <h1 className="homepage-title">Welcome to ToxInsight!</h1>
-            <div className="homepage-content">Thousands of harmful chemicals are hidden under seemingly harmless labels in products, such as "fragrance" and "color"!</div>
-            <div className="homepage-content">Search for any chemical and we will provide you with the associated health risks and hazards</div>
+            <div className="homepage-content" >
+               Many everyday consumer items conceal potentially dangerous chemicals under innocent - sounding terms like "fragrance"
+               and "color." </div>
+            <div className="homepage-content" > Type in a substance into the search bar below to uncover the true composition of the product and the health risks linked to these substances. </div>
             <div className="homepage-content">Stay informed!</div>
             <SearchBar />
          </div>

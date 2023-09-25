@@ -8,12 +8,14 @@ function SearchBar() {
    const dispatch = useDispatch()
    const history = useHistory()
 
+
+
    return (
       <>
          <div className="searchBar-container">
             <h1 className="searchBar-title">Find out what lies hidden inside!</h1>
             <div className = "searchBar-content" > Enter a chemical or compound in the search box below to find out more! </div>
-            <form>
+            <form >
                <input className='search-input' placeholder="Ex. Bisphenol-A">
                </input>
                <button>Look it up!</button>

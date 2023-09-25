@@ -1,10 +1,15 @@
 /* TODO Add site wide styles */
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Croissant+One&family=Indie+Flower&family=Nosifer&display=swap');
+
+
 html{
      background-color: rgb(58, 90, 150);
 
      background-image:url("./biohazard.jpg");
-     font-family:Creepster
+     font-family:"Creepster"
+
 
 }
